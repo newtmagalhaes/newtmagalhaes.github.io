@@ -1,0 +1,23 @@
+
+header hr {
+  display: block;
+  width: 40%;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+  width: 40%;
+  height: 40%;
+  margin: 25px 0;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}

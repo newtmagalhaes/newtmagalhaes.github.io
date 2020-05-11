@@ -1,0 +1,20 @@
+* {
+  text-rendering: optimizeLegibility;
+  text-align: center;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #e1066f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
