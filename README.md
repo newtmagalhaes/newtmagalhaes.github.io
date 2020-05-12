@@ -8,6 +8,8 @@
 
 1. [:bookmark: 1-css-pagina-pessoal](./imersaoCSS/aula1/css-pagina-pessoal.md "Texto da aula 1")
 
+2. [:bookmark: 2-css-pagina-pessoal](./imersaoCSS/aula2/css-pagina-pessoal.md "Texto da aula 2")
+
 ## :pencil: Versionamento
 
 Eu uso [Git <img src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/git.svg?sanitize=true" width="15">](https://git-scm.com/ "Site oficial do Git") para versionamento.
