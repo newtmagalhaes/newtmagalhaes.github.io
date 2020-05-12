@@ -1,4 +1,13 @@
 
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  width: 100vw;
+}
+
 header hr {
   display: block;
   width: 40%;
@@ -6,11 +15,19 @@ header hr {
 
 header img {
   border-radius: 50%;
-  max-width: 300px;
-  max-height: 300px;
-  width: 40%;
-  height: 40%;
+  width: 200px;
+  height: 200px;
   margin: 25px 0;
+}
+
+.menu {
+  margin: 1%;
+  padding: 1%;
+  width: 98%;
+}
+
+.menu a {
+  padding: 2px;
 }
 
 .menu ul {
@@ -20,4 +37,15 @@ header img {
 
 .menu li {
   list-style: none;
+}
+
+@media (max-width: 400px) {
+  .menu ul {
+    flex-direction: column;
+  }
+
+  header img {
+    height: 120px;
+    width: 120px;
+  }
 }
