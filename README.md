@@ -12,6 +12,8 @@
 
 3. [:bookmark: 3-grid](./imersaoCSS/aula3/grid.md "Texto da aula 3")
 
+4. [:bookmark: 4-animando-tudo](./imersaoCSS/aula4/animando-tudo.md)
+
 ## :pencil: Versionamento
 
 Eu uso [Git <img src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/git.svg?sanitize=true" width="15">](https://git-scm.com/ "Site oficial do Git") para versionamento.
