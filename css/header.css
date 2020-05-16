@@ -1,16 +1,10 @@
-
 header {
   align-items: center;
   display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: space-around;
-  width: 100vw;
-}
-
-header hr {
-  display: block;
-  width: 40%;
+  width: 98vw;
 }
 
 header img {
@@ -30,13 +24,9 @@ header img {
   padding: 2px;
 }
 
-.menu ul {
-  display: flex;
-  justify-content: space-around;
-}
-
-.menu li {
-  list-style: none;
+header hr {
+  display: block;
+  width: 40%;
 }
 
 @media (max-width: 400px) {

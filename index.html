@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -8,25 +9,35 @@
       content="Página pessoal desenvolvida durante a imersão hipsters CSS"
     />
 
+    <!-- Page Title -->
     <title>Anilton Magalhães | GitHub Pages</title>
 
-    <link rel="icon" href="assets/github.svg" />
+    <!-- Links -->
+    <link rel="icon" href="assets/alura.png" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
     />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <!-- Scripts -->
+    <script
+      src="https://kit.fontawesome.com/0a351726bd.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <img
-        alt="Perfil"
-        src="https://avatars1.githubusercontent.com/u/55257893?s=460&u=75fcbe80c23c12033695b70c11c31dc3edd89444&v=4"
-        title="Anilton Magalhães"
-      />
-
-      <h1 class="my-name">Anilton Magalhães</h1>
+      <figure>
+        <img
+          alt="Anilton Magalhães"
+          src="https://avatars1.githubusercontent.com/u/55257893?s=460&u=75fcbe80c23c12033695b70c11c31dc3edd89444&v=4"
+        />
+        <figcaption><h1 class="hero-name">Anilton Magalhães</h1></figcaption>
+      </figure>
 
       <section class="description">
         Cursando Engenharia da Computação.<br />
@@ -38,17 +49,48 @@
 
       <nav class="menu">
         <ul>
-          <li><a href="mailto:magalhaesanilton@gmail.com">Email</a></li>
-          <li><a href="https://github.com/newtmagalhaes">GitHub</a></li>
-          <li><a href="https://instagram.com/newtmagalhaes">Instagram</a></li>
-          <li><a href="https://linkedin.com/in/newtmagalhaes">Linkedin</a></li>
-          <li><a href="https://twitter.com/newtmagalhaes">Twitter</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#projetos">Projetos</a></li>
         </ul>
       </nav>
     </header>
 
     <main></main>
 
-    <footer></footer>
+    <footer>
+      <h2 id="contato">Contato:</h2>
+      <nav class="social">
+        <ul>
+          <li>
+            <a href="mailto:magalhaesanilton@gmail.com">
+              <i class="fas fa-envelope-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/newtmagalhaes">
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/newtmagalhaes">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/newtmagalhaes">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <address>
+        <hr />
+        <p>
+          Feito com ❤️ por
+          <a href="http://github.com/newtmagalhaes">Anilton Magalhães</a>
+        </p>
+      </address>
+    </footer>
   </body>
 </html>

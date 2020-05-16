@@ -1,0 +1,52 @@
+footer {
+  align-items: center;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 98vw;
+  margin-bottom: 2%;
+}
+
+.social {
+  font-size: 50px;
+  height: fit-content;
+  width: 30%;
+  min-width: fit-content;
+}
+
+.social ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+address hr {
+  display: block;
+  width: 100%;
+}
+
+.fa-github-square:hover {
+  transition: color 700ms;
+  color: black;
+}
+
+.fa-linkedin:hover {
+  transition: color 700ms;
+  color: blue;
+}
+
+.fa-twitter-square:hover {
+  transition: color 700ms;
+  color: blue;
+}
+
+.fa-envelope-square:hover {
+  transition: color 700ms;
+  color: red;
+}
+
+@media (max-width: 400px) {
+  .social ul {
+    flex-direction: column;
+  }
+}

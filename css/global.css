@@ -18,6 +18,11 @@ a:visited {
   color: #e1066f;
 }
 
-a:hover {
-  text-decoration: underline;
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
 }
