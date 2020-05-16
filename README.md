@@ -14,6 +14,8 @@
 
 4. [:bookmark: 4-animando-tudo](./imersaoCSS/aula4/animando-tudo.md)
 
+5. [bookmark: 5-efeitos-visuais](./imersaoCSS/aula5/efeitos-visuais.md)
+
 ## :pencil: Versionamento
 
 Eu uso [Git <img src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/git.svg?sanitize=true" width="15">](https://git-scm.com/ "Site oficial do Git") para versionamento.
